@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Partnership Team</title>
+    <link rel="stylesheet" href="../static/styles.css"> <!-- Link to the external CSS file -->
+</head>
+
+<body>
+
+    <button class="back-to-login-btn" onclick="window.location.href='login.html'">Back to Login</button>
+
+
+    <div class="title-card">
+        <h1>Welcome Partnership Team!</h1>
+    </div>
+    
+    <a href="https://my.sager.com/SitePages/Home.aspx" class="portal-btn">Access Portal</a>
+
+
+    <div class="card">
+        <div class="content">
+            <button onclick="runCreationContract()">Run Creation Contract Program</button>
+            <button onclick="runPartnershipNeotechContract()">Run Partnership Neotech Contract Program</button>
+            <button onclick="runCreationBOND()">Run Creation BOND Program</button>
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="images-videos/Sager-logo.png" alt="Sager Logo">
+    </div>
+
+    <script>
+        function runCreationContract() {
+            alert('Creation Contract Program Initiated!');
+        }
+
+        function runPartnershipNeotechContract() {
+            alert('Partnership Neotech Contract Program Initiated!');
+        }
+
+        function runCreationBOND() {
+            alert('Creation BOND Program Initiated!');
+        }
+    </script>
+</body>
+
+</html>
